@@ -1,9 +1,8 @@
 def roll_call_dwarves # code an argument here
   # Your code here
   dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-  i = 0
-  dwarves.each_with_index{|dwarves, index| do 
-    puts 
+  dwarves.each_with_index{|value, index| do 
+    puts "#{value"
   end
   
 end
