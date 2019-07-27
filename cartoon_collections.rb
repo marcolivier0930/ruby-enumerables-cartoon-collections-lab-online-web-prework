@@ -1,6 +1,6 @@
 def roll_call_dwarves # code an argument here
   # Your code here
-  dwarves = []
+  dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
   dwarves.each_with_index{|value, index| do 
     puts "#{index} : #{value}"
   end
